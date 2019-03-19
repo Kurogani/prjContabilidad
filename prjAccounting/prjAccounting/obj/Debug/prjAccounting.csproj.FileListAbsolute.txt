@@ -1,0 +1,180 @@
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\prjAccounting.dll.config
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\prjAccounting.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\prjAccounting.pdb
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csc.exe
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csc.exe.config
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csc.rsp
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csi.exe
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csi.exe.config
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\csi.rsp
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.AppContext.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Console.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.IO.Compression.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.IO.Pipes.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Claims.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.ValueTuple.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\vbc.exe
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\vbc.exe.config
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\vbc.rsp
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Antlr3.Runtime.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\EntityFramework.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\EntityFramework.SqlServer.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Newtonsoft.Json.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Net.Http.Formatting.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Helpers.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Http.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Http.WebHost.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Mvc.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Optimization.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Razor.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.Deployment.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.Razor.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\WebGrease.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\EntityFramework.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\EntityFramework.SqlServer.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Helpers.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Mvc.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Optimization.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Razor.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.Deployment.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.WebPages.Razor.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Newtonsoft.Json.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Antlr3.Runtime.pdb
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Net.Http.Formatting.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Http.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Web.Http.WebHost.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csprojAssemblyReference.cache
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csproj.CoreCompileInputs.cache
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csproj.CopyComplete
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\obj\Debug\prjAccounting.dll
+C:\Users\JoseAngel\source\repos\prjAccounting\prjAccounting\obj\Debug\prjAccounting.pdb
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\prjAccounting.dll.config
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\prjAccounting.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\prjAccounting.pdb
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csc.exe
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csc.exe.config
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csc.rsp
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csi.exe
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csi.exe.config
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\csi.rsp
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.AppContext.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Console.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.IO.Compression.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.IO.Pipes.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Claims.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.ValueTuple.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XPath.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\vbc.exe
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\vbc.exe.config
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\vbc.rsp
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\VBCSCompiler.exe
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Antlr3.Runtime.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\EntityFramework.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\EntityFramework.SqlServer.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Newtonsoft.Json.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Net.Http.Formatting.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Helpers.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Http.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Http.WebHost.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Mvc.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Optimization.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Razor.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.Deployment.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.Razor.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\WebGrease.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\EntityFramework.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\EntityFramework.SqlServer.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Helpers.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Mvc.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Optimization.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Razor.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.Deployment.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.WebPages.Razor.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Newtonsoft.Json.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Antlr3.Runtime.pdb
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Net.Http.Formatting.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Http.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Web.Http.WebHost.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csprojAssemblyReference.cache
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csproj.CoreCompileInputs.cache
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\obj\Debug\prjAccounting.csproj.CopyComplete
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\obj\Debug\prjAccounting.dll
+C:\Users\freddy rosa\Desktop\prjAccounting\prjAccounting\obj\Debug\prjAccounting.pdb

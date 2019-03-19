@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="accounting_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="account_catalog">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="account_type_id" Type="int" Nullable="false" />
+    <Property Name="code" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="transactional" Type="bit" Nullable="false" />
+    <Property Name="level" Type="tinyint" Nullable="false" />
+    <Property Name="major" Type="int" />
+    <Property Name="balance" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="state" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="account_type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="state" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="accounting_clerk">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="code" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="state" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="accounting_entry">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="accounting_clerk_id" Type="int" Nullable="false" />
+    <Property Name="currency_id" Type="int" Nullable="false" />
+    <Property Name="description" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="state" Type="int" Nullable="false" />
+    <Property Name="create_on" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="accounting_entry_detail">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="accounting_entry_id" Type="int" Nullable="false" />
+    <Property Name="account_catalog_id" Type="int" Nullable="false" />
+    <Property Name="transaction_type" Type="int" Nullable="false" />
+    <Property Name="amount" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+  </EntityType>
+  <EntityType Name="currency">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="code" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="state" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="currency_exchange">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="currency_id" Type="int" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="create_on" Type="date" />
+  </EntityType>
+  <EntityType Name="user_accounting">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="fullname" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="user_password" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_accounting_entry_accounting_clerk">
+    <End Role="accounting_clerk" Type="Self.accounting_clerk" Multiplicity="1" />
+    <End Role="accounting_entry" Type="Self.accounting_entry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounting_clerk">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="accounting_entry">
+        <PropertyRef Name="accounting_clerk_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_accounting_entry_currency">
+    <End Role="currency" Type="Self.currency" Multiplicity="1" />
+    <End Role="accounting_entry" Type="Self.accounting_entry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="currency">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="accounting_entry">
+        <PropertyRef Name="currency_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_accounting_entry_detail_account_catalog">
+    <End Role="account_catalog" Type="Self.account_catalog" Multiplicity="1" />
+    <End Role="accounting_entry_detail" Type="Self.accounting_entry_detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="account_catalog">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="accounting_entry_detail">
+        <PropertyRef Name="account_catalog_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_accounting_entry_detail_accounting_entry">
+    <End Role="accounting_entry" Type="Self.accounting_entry" Multiplicity="1" />
+    <End Role="accounting_entry_detail" Type="Self.accounting_entry_detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="accounting_entry">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="accounting_entry_detail">
+        <PropertyRef Name="accounting_entry_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cuenta_contable_tipo_cuenta">
+    <End Role="account_type" Type="Self.account_type" Multiplicity="1" />
+    <End Role="account_catalog" Type="Self.account_catalog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="account_type">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="account_catalog">
+        <PropertyRef Name="account_type_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_currency_exchange_currency">
+    <End Role="currency" Type="Self.currency" Multiplicity="1" />
+    <End Role="currency_exchange" Type="Self.currency_exchange" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="currency">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="currency_exchange">
+        <PropertyRef Name="currency_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="accounting_dbModelStoreContainer">
+    <EntitySet Name="account_catalog" EntityType="Self.account_catalog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="account_type" EntityType="Self.account_type" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="accounting_clerk" EntityType="Self.accounting_clerk" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="accounting_entry" EntityType="Self.accounting_entry" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="accounting_entry_detail" EntityType="Self.accounting_entry_detail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="currency" EntityType="Self.currency" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="currency_exchange" EntityType="Self.currency_exchange" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user_accounting" EntityType="Self.user_accounting" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_accounting_entry_accounting_clerk" Association="Self.FK_accounting_entry_accounting_clerk">
+      <End Role="accounting_clerk" EntitySet="accounting_clerk" />
+      <End Role="accounting_entry" EntitySet="accounting_entry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_accounting_entry_currency" Association="Self.FK_accounting_entry_currency">
+      <End Role="currency" EntitySet="currency" />
+      <End Role="accounting_entry" EntitySet="accounting_entry" />
+    </AssociationSet>
+    <AssociationSet Name="FK_accounting_entry_detail_account_catalog" Association="Self.FK_accounting_entry_detail_account_catalog">
+      <End Role="account_catalog" EntitySet="account_catalog" />
+      <End Role="accounting_entry_detail" EntitySet="accounting_entry_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_accounting_entry_detail_accounting_entry" Association="Self.FK_accounting_entry_detail_accounting_entry">
+      <End Role="accounting_entry" EntitySet="accounting_entry" />
+      <End Role="accounting_entry_detail" EntitySet="accounting_entry_detail" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cuenta_contable_tipo_cuenta" Association="Self.FK_cuenta_contable_tipo_cuenta">
+      <End Role="account_type" EntitySet="account_type" />
+      <End Role="account_catalog" EntitySet="account_catalog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_currency_exchange_currency" Association="Self.FK_currency_exchange_currency">
+      <End Role="currency" EntitySet="currency" />
+      <End Role="currency_exchange" EntitySet="currency_exchange" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

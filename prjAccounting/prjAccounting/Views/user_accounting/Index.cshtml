@@ -1,0 +1,54 @@
+﻿@model IEnumerable<prjAccounting.user_accounting>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Content/jquery/jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="~/Content/datatables/dataTables.bootstrap4.min.css" />
+<script type="text/javascript" src="~/Content/datatables/dataTables.bootstrap4.min.js"></script>
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table id="mitabla" class="display table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fullname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_password)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fullname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.user_password)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.username }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.username }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.username })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#mitabla').dataTable();
+    });
+</script>

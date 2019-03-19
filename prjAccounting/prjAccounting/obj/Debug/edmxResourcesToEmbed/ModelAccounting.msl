@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="accounting_dbModelStoreContainer" CdmEntityContainer="accounting_dbEntities">
+    <EntitySetMapping Name="account_catalog">
+      <EntityTypeMapping TypeName="accounting_dbModel.account_catalog">
+        <MappingFragment StoreEntitySet="account_catalog">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="account_type_id" ColumnName="account_type_id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="transactional" ColumnName="transactional" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="major" ColumnName="major" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="account_type">
+      <EntityTypeMapping TypeName="accounting_dbModel.account_type">
+        <MappingFragment StoreEntitySet="account_type">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounting_clerk">
+      <EntityTypeMapping TypeName="accounting_dbModel.accounting_clerk">
+        <MappingFragment StoreEntitySet="accounting_clerk">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounting_entry">
+      <EntityTypeMapping TypeName="accounting_dbModel.accounting_entry">
+        <MappingFragment StoreEntitySet="accounting_entry">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="accounting_clerk_id" ColumnName="accounting_clerk_id" />
+          <ScalarProperty Name="currency_id" ColumnName="currency_id" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="accounting_entry_detail">
+      <EntityTypeMapping TypeName="accounting_dbModel.accounting_entry_detail">
+        <MappingFragment StoreEntitySet="accounting_entry_detail">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="accounting_entry_id" ColumnName="accounting_entry_id" />
+          <ScalarProperty Name="account_catalog_id" ColumnName="account_catalog_id" />
+          <ScalarProperty Name="transaction_type" ColumnName="transaction_type" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="currency">
+      <EntityTypeMapping TypeName="accounting_dbModel.currency">
+        <MappingFragment StoreEntitySet="currency">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="state" ColumnName="state" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="currency_exchange">
+      <EntityTypeMapping TypeName="accounting_dbModel.currency_exchange">
+        <MappingFragment StoreEntitySet="currency_exchange">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="currency_id" ColumnName="currency_id" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="create_on" ColumnName="create_on" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_accounting">
+      <EntityTypeMapping TypeName="accounting_dbModel.user_accounting">
+        <MappingFragment StoreEntitySet="user_accounting">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
