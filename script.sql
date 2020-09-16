@@ -247,7 +247,7 @@ INSERT [dbo].[accounting_entry] ([id], [accounting_clerk_id], [currency_id], [de
 SET IDENTITY_INSERT [dbo].[accounting_entry] OFF
 SET IDENTITY_INSERT [dbo].[currency] ON 
 
-INSERT [dbo].[currency] ([id], [code], [name], [state]) VALUES (1, N'DOP', N'Peso Dominicano', 1)
+INSERT [dbo].[currency] ([id], [code], [name], [state]) VALUES (1, N'DOP', N'Peso Dominicanos', 1)
 SET IDENTITY_INSERT [dbo].[currency] OFF
 SET IDENTITY_INSERT [dbo].[currency_exchange] ON 
 
